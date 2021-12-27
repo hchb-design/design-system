@@ -1,0 +1,19 @@
+{
+  "name": "@carbon/themes-examples-preview",
+  "private": true,
+  "version": "0.0.0",
+  "license": "Apache-2.0",
+  "scripts": {
+    "build": "parcel build --dist-dir build --public-url \"/themes/examples/preview\" index.html",
+    "develop": "parcel index.html --no-cache"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.1",
+    "parcel": "^2.0.1"
+  }
+}

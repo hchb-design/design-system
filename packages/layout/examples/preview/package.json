@@ -1,0 +1,14 @@
+{
+  "name": "layout-basic-example",
+  "private": true,
+  "version": "0.0.0",
+  "license": "Apache-2.0",
+  "scripts": {
+    "build": "parcel build --dist-dir build --public-url \"/layout/examples/preview\" index.html",
+    "develop": "parcel index.html --no-cache"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.1",
+    "parcel": "^2.0.1"
+  }
+}
